@@ -1,0 +1,286 @@
+nav {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: white; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; 
+    margin: 0;
+    padding: 15px 0; 
+}                                                                                                                                                                                                                                                                                   
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.2em; 
+    padding: 12px 20px; 
+    line-height: 2; 
+    border-radius: 5px; 
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    background-color: lightgray;
+    color: white;
+}
+
+
+.logo-container {
+    position: relative; 
+    left: 10px; 
+    top: 5px; 
+    margin-right: auto; 
+}
+
+.banner {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+    color: white;
+    padding-bottom: 20px; 
+}
+
+.banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.banner-text {
+    position: relative;
+    font-size: 2em; 
+    line-height: 1.4; 
+    padding: 0 20px; 
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .aboutcontent {
+    width: 50%;
+}
+
+.about .aboutcontent h2 {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.about .aboutcontent p {
+    color: gray;
+    font-family: 'Anton', sans-serif;
+    margin-top: 47px;
+    margin-left: 30px;
+}
+
+.about .aboutImg {
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.about .aboutImg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.team h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.contact h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.contact p {
+    color: grey;
+    text-align: center;
+    font-size: large;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+hr {
+    border: 2px solid orange;
+}
+
+
+.images-section {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-row img {
+    margin: 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: orange;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: orange;
+}
+
+#hero-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    overflow: hidden;
+}
+/* #hero-content ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+padding: 14px 16px;
+    text-decoration: none;
+    background-color: bisque;
+}
+
+#hero-content ul li a:hover {
+    background-color: bisque;
+    color: black;
+}
+
+#hero-content ul li a:active {
+    background-color: bisque;
+    color: bisque;
+} */
+
+#hero-content ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: bisque;
+    
+}
+
+#hero-content ul li a:hover,
+#hero-content ul li a:focus,
+#hero-content ul li a:active {
+    background-color: white; 
+    color: black; 
+}
+
+#hero-content ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#green-banner {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#green-banner h2 {
+    font-size: 48px;
+    /* margin: 0; */
+}
+
+#green-banner p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#hero h1 {
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+} 
+
+#hero hr {
+    width: 97%;
+    margin: 25px;
+    border: 2px solid orange;
+}
+
+ #hero img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; 
+    transition: transform 0.3s ease;
+}
+
+#hero img:hover {
+    transform: scale(1.1); 
+}
+
+#hero img:last-child {
+    margin-right: 0; 
+}
+#hero-content ul li {
+    float: left;
+}
+
+
+    
